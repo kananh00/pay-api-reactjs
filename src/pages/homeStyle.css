@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.home{
+    margin: 48px 24px;
+}
+.bg-circle{
+    position: relative;
+}
+.bg-circle img{
+    position: absolute;
+    width: 780px;
+    height: 780px;
+    clip: rect(550px, 226px, 0, 227px);
+}
+.mob_img{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+.mob_img img{
+    width: 159px;
+    margin-left: 20px;
+}
+.home_heading{
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #36536B;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    text-align: center;
+}
+.questions_txt{
+    font-size: 15px;
+    line-height: 17.63px;
+    font-weight: 400;
+    text-align: center;
+}
+.bold_txt{
+    font-weight: 700;
+}
+.corporation{
+    background-color: #1B262F;
+    padding: 80px 24px;
+    margin: 80px -24px;
+    color: white;
+    text-align: center;
+}
+/* .corp_heading{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 56px;
+}
+.corp_text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FBFCFE;
+    opacity: 70%;
+    margin-bottom: 65px;
+} */
+implement{
+    width: 100vw;
+}
+.implement_image{
+    text-align: center;
+}
+.implement_image img{
+    width: 100%;
+    box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+}
+.ui_img{
+    text-align: center;
+    width: 90vw;
+    overflow: hidden;
+}
+.ui_img img{
+    margin: -79px -80px;
+}

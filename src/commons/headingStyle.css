@@ -1,0 +1,19 @@
+.heading_wrapper{
+    text-align: center;
+}
+.heading{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 56px;
+}
+.text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 70%;
+    margin-bottom: 65px;
+}

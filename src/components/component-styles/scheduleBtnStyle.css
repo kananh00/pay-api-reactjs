@@ -1,0 +1,16 @@
+.btn_schedule{
+    background-color: #BA4270;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    padding: 16px 46px 14px 50px;
+    color: white;
+    height: 48px;
+}
+.btn_text{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    letter-spacing: -0.12px;
+    text-align: center;
+}
