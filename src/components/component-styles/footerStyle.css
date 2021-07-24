@@ -1,0 +1,41 @@
+.footer{
+    background-color: #1B262F;
+    position: relative;
+    overflow: hidden;
+    margin: 0 -24px -48px -24px;
+    padding: 46px 120px;
+    text-align: center;
+}
+.nav_link{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FBFCFE;
+    opacity: 70%;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.63px;
+    margin-bottom: 31px;
+}
+
+.logo{
+    filter:  brightness(0) invert(1);
+    margin-bottom: 43px;
+}
+.social{
+    margin-top: 12px;
+}
+.footer_link{
+    margin-bottom: 31px;
+}
+.circle_footer{
+    background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    position: absolute;
+    margin: -48px 0 -24px;
+    width: 780px;
+    height: 780px;
+    left: -200px;
+    top: 240px;
+}

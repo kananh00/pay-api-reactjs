@@ -1,0 +1,20 @@
+.advantages{
+    text-align: center;
+    color: #6C8294;
+    margin-bottom: 48px;
+}
+.heading_adv{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 33px;
+}
+.text_adv{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    line-height: -0.12px;
+    padding: 0 3px;
+}

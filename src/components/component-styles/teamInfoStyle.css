@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.info_name{
+    font-size: 16px;
+    color: #36536B;
+    opacity: 70%;
+    line-height: 28px;
+    margin: 0;
+}
+.info{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.43px;
+    color: rgba(186, 66, 112, 1);
+    margin: 0;
+}
+.team_info{
+    margin-bottom: 30px;
+}

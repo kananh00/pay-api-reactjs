@@ -1,0 +1,14 @@
+.ready_to_start{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.heading_read{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    font-weight: 400;
+    color: #36536B;
+    margin-bottom: 32px;
+}

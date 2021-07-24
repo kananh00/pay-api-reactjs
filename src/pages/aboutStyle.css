@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.about{
+    padding: 48px 24px;
+    position: relative;
+    overflow: hidden;
+}
+.circle_pageBG{
+    background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    position: absolute;
+    margin: -48px 0 -24px;
+    width: 780px;
+    height: 780px;
+    left: 80px;
+    margin: -48px -24px;
+    top: -600px;
+    z-index: -1;
+}
+.about_heading{
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+.about_content{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.heading_content{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    margin-bottom: 16px;
+}
+.text_color{
+    color: #36536B;
+}
+.team_img{
+    margin: 0 -24px;
+}
+.team{
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+    text-align: center;
+    margin: 48px 0;
+    padding: 16px 0;
+}
+
+.last_team_info{
+    margin-bottom: -30px;
+}

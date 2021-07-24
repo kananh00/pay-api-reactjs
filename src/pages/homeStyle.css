@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 .home{
-    margin: 48px 24px;
-}
-.bg-circle{
+    box-sizing: border-box;
+    padding: 48px 24px;
     position: relative;
+    overflow: hidden;
 }
-.bg-circle img{
+.circle{
+    background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
     position: absolute;
+    margin: -48px 0 -24px;
     width: 780px;
     height: 780px;
-    clip: rect(550px, 226px, 0, 227px);
+    left: -200px;
+    top: -470px;
+    z-index: -1;
 }
+
 .mob_img{
     text-align: center;
     margin-top: 60px;
@@ -76,4 +84,5 @@ implement{
     text-align: center;
     width: 90vw;
     overflow: hidden;
+    
 }

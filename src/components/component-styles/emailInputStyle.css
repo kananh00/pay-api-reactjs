@@ -5,6 +5,7 @@
     padding: 12px 158px 14px 27px;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     height: 48px;
+    
 }
 .email_input_text{
     font-size: 15px;
@@ -14,4 +15,6 @@
     font-weight: 700;
     border: none;
     margin: 0;
+    outline: none;
+    border: none;
 }
