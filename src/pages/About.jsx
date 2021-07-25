@@ -8,10 +8,10 @@ import TeamInfo from '../components/TeamInfo';
 class About extends Component{
     render(){
         return(
-            <div className="about">
+            <div className="about page">
                 <div className="circle_pageBG"></div>
                 <Header/>
-                <h1 className="home_heading about_heading">We empower innovators by delivering access to the financial system</h1>
+                <h1 className="home_heading page_heading">We empower innovators by delivering access to the financial system</h1>
 
                 <div className="about_content">
                     <h2 className="heading_content text_color">Our Vision</h2>

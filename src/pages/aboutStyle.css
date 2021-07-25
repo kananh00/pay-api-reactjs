@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-.about{
+.page{
     padding: 48px 24px;
     position: relative;
     overflow: hidden;
@@ -18,7 +18,7 @@
     top: -600px;
     z-index: -1;
 }
-.about_heading{
+.page_heading{
     margin-top: 65px;
     margin-bottom: 40px;
 }

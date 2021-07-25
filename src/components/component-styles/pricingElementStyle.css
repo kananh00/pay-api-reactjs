@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.price_element{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    width: 134px;
+    margin-bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pricing_element{
+    text-align: center;
+}
+.colored_heading{
+    color: #BA4270;
+    margin-bottom: 60px;
+}
+.price{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.43px;
+    color: #36536B;
+}
+.pricing_line{
+    color: #36536B;
+    opacity: 25%;
+    margin: 24px 0;
+}
+.element_name{
+    font-size: 16px;
+    color: #36536B;
+    line-height: 28px;
+    margin: 0;
+    padding-left: 36px;
+}
