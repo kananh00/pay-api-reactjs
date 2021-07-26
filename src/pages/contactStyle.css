@@ -1,0 +1,28 @@
+.checkbox_text{
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: rgba(54, 83, 107, 1);
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+.checkbox{
+    min-width: 24px;
+    height: 24px;
+    background-color: rgba(54, 83, 107, 0.25);
+}
+.check_clicked{
+    background-color: rgba(54, 83, 107, 1);
+}
+.checkLine{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 24px;
+    height: 50px;
+}
+.join_us{
+    text-align: center;
+}

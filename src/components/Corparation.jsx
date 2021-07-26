@@ -12,22 +12,24 @@ import oracle from '../assets/shared/desktop/oracle.svg'
 import nvidia from '../assets/shared/desktop/nvidia.svg'
 import google from '../assets/shared/desktop/google.svg'
 
-export const Corparation = () => {
+export const Corparation = (props) => {
     return(
-        <Container fluid>
-            <Row className="corp_row">
-                <Col><img className="corp_logo" src={tesla} alt="tesla"/></Col>
-                <Col><img className="corp_logo" src={microsoft} alt="microsoft"/></Col>
-            </Row>
-            <Row className="corp_row">
-                <Col><img className="corp_logo" src={hewlettPackard} alt="hewlettPackard"/></Col>
-                <Col><img className="corp_logo" src={oracle} alt="oracle"/></Col>
-            </Row>
-            <Row className="corp_row">
-                <Col><img className="corp_logo" src={google} alt="google"/></Col>
-                <Col><img className="corp_logo" src={nvidia} alt="nvidia"/></Col>
-            </Row>
-        </Container>
+        <div style={{marginTop: props.marginTop}}>
+            <Container fluid>
+                <Row className="corp_row">
+                    <Col><img style={{filter: props.filter}}className="corp_logo" src={tesla} alt="tesla"/></Col>
+                    <Col><img style={{filter: props.filter}}className="corp_logo" src={microsoft} alt="microsoft"/></Col>
+                </Row>
+                <Row className="corp_row">
+                    <Col><img style={{filter: props.filter}}className="corp_logo" src={hewlettPackard} alt="hewlettPackard"/></Col>
+                    <Col><img style={{filter: props.filter}}className="corp_logo" src={oracle} alt="oracle"/></Col>
+                </Row>
+                <Row className="corp_row">
+                    <Col><img style={{filter: props.filter}}className="corp_logo" src={google} alt="google"/></Col>
+                    <Col><img style={{filter: props.filter}}className="corp_logo" src={nvidia} alt="nvidia"/></Col>
+                </Row>
+            </Container>
+        </div>
     )
 }
 
