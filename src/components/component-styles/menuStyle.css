@@ -22,3 +22,8 @@
     text-decoration: none;
     color: #FBFCFE;
 }
+@media (min-width: 760px){
+    .hamburger{
+        display: none;
+    }
+}

@@ -18,3 +18,13 @@
     outline: none;
     border: none;
 }
+@media (min-width: 760px){
+    .email_input{
+        margin-left: 80px;
+    }
+}
+@media (min-width: 1024px){
+    .email_input{
+        margin-left: 0;
+    }
+}

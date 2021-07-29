@@ -15,7 +15,7 @@ import google from '../assets/shared/desktop/google.svg'
 export const Corparation = (props) => {
     return(
         <div style={{marginTop: props.marginTop}}>
-            <Container fluid>
+            {/* <Container fluid>
                 <Row className="corp_row">
                     <Col><img style={{filter: props.filter}}className="corp_logo" src={tesla} alt="tesla"/></Col>
                     <Col><img style={{filter: props.filter}}className="corp_logo" src={microsoft} alt="microsoft"/></Col>
@@ -28,7 +28,33 @@ export const Corparation = (props) => {
                     <Col><img style={{filter: props.filter}}className="corp_logo" src={google} alt="google"/></Col>
                     <Col><img style={{filter: props.filter}}className="corp_logo" src={nvidia} alt="nvidia"/></Col>
                 </Row>
-            </Container>
+            </Container> */}
+            <div className="container">
+                <div className="row">
+                    <div className="col-6 col-md-4">
+                            <div className="corp_logo"><img style={{filter: props.filter}} src={tesla} alt="tesla"/></div>
+                    </div>
+                    <div className="col-6 col-md-4">
+                        <div className="corp_logo"><img style={{filter: props.filter}} src={microsoft} alt="microsoft"/></div>
+                    </div>
+                    
+                    <div className="col-6 col-md-4">
+                        <div className="corp_logo"><img style={{filter: props.filter}} src={hewlettPackard} alt="hewlettPackard"/></div>
+                    </div>
+
+                    <div className="col-6 col-md-4">                    
+                        <div className="corp_logo"><img style={{filter: props.filter}} src={oracle} alt="oracle"/></div>
+                    </div>
+                    
+                    <div className="col-6 col-md-4">
+                            <div className="corp_logo"><img style={{filter: props.filter}} src={google} alt="google"/></div>
+                    </div>
+                    
+                    <div className="col-6 col-md-4">
+                        <div className="corp_logo"><img style={{filter: props.filter}} src={nvidia} alt="nvidia"/></div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

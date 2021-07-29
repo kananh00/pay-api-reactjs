@@ -15,6 +15,7 @@ export const PricingElement = (props) => {
     return(
         <div className="pricing_element">
             <h2 className="heading_content colored_heading">{props.heading}</h2>
+            <p className="text text_color text_pricing">{props.text}</p>
             <h1 className="price">{props.price}</h1>
             <div className="include_to_price">
                 <hr className="pricing_line"/>

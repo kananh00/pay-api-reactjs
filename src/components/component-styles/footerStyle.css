@@ -5,6 +5,7 @@
     margin: 0 -24px -48px -24px;
     padding: 46px 120px;
     text-align: center;
+    z-index: -2;
 }
 .nav_link{
     cursor: pointer;
@@ -15,6 +16,7 @@
     font-size: 15px;
     line-height: 17.63px;
     margin-bottom: 31px;
+    z-index: 100000;
 }
 
 .logo{
@@ -38,4 +40,21 @@
     height: 780px;
     left: -200px;
     top: 240px;
+    z-index: -1;
+}
+@media (min-width: 760px){
+    .footer{
+        padding: 39px 31px;
+        margin: 0 -39px -48px -39px;
+    }
+    .social{
+        margin: 0;
+    }
+    .footer_link{
+        margin: 0;
+    }
+    .logo{
+        margin: 0;
+        margin-top: -7px;
+    }
 }

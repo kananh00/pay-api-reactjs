@@ -26,3 +26,16 @@
 .join_us{
     text-align: center;
 }
+@media (min-width: 760px){
+    .form_part{
+        padding: 0 132px;
+    }
+    .contact_heading{
+        padding: 0;
+    }
+    .contact_corp_heading{
+        padding: 0 112px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

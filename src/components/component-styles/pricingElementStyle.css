@@ -3,7 +3,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    /* justify-content: flex-start; */
     width: 134px;
     margin-bottom: 8px;
     left: 50%;
@@ -15,6 +14,10 @@
 .colored_heading{
     color: #BA4270;
     margin-bottom: 60px;
+}
+.text_pricing{
+    padding: 0;
+    display: none;
 }
 .price{
     font-family: 'DM Serif Display', serif;
@@ -34,4 +37,17 @@
     line-height: 28px;
     margin: 0;
     padding-left: 36px;
+}
+@media (min-width: 760px){
+    .pricing_element{
+        margin-top: 69px;
+       
+    }
+    .text_pricing{
+        display: block;
+        margin-bottom: 19px;
+    }
+    .colored_heading{
+        margin-bottom: 13px;
+    }
 }

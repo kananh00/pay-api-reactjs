@@ -14,3 +14,22 @@
     letter-spacing: -0.12px;
     text-align: center;
 }
+@media (min-width: 760px){
+    .btn_schedule{
+        position: absolute;
+        margin-top: 24px;
+        padding: 16px 25px;
+        right: 90px;
+    }
+}
+@media (min-width: 1024px){
+    .btn_schedule{
+        right: 30px;
+    }
+}
+@media (min-width: 1440px){
+    .btn_schedule{
+        right: 90px;
+    }
+}
+

@@ -6,7 +6,7 @@ class Form extends Component{
         return(
             <div className="form_contact">
                 <form>
-                    {this.props.rows==1 ? <input className="form_input" type={this.props.type} placeholder={this.props.placeholder}/> : <textarea className="form_input" rows={this.props.rows} type={this.props.type} placeholder={this.props.placeholder}/>}
+                    {this.props.rows===1 ? <input className="form_input" type={this.props.type} placeholder={this.props.placeholder}/> : <textarea className="form_input" rows={this.props.rows} type={this.props.type} placeholder={this.props.placeholder}/>}
                 </form>
             </div>
         )

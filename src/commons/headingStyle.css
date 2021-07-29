@@ -17,3 +17,26 @@
     opacity: 70%;
     margin-bottom: 65px;
 }
+
+@media (min-width: 760px){
+    .heading{
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        margin-bottom: 24px;
+    }
+    .text{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (min-width: 1024px){
+    .heading_wrapper{
+        text-align: left;
+        margin-left: 100px;
+        max-width: 450px;
+    }
+    .text{
+        padding: 0;
+    }
+}
