@@ -120,10 +120,12 @@
         padding: 40px 95px;
     }
     .schedule_input{
-        margin-top: 125px;
+        margin-top: 165px;
     }
     .home_heading{
-        width: 375px;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -0.55px;
         text-align: left;
         padding: 0;
     }
@@ -156,5 +158,14 @@
         text-align: center;
         height: 100%;
     }
-    
+    .mob_img img{
+        width: 350px;
+    }
+    .ui_ux{
+        margin-top: 150px;
+        margin-bottom: 146px;
+    }
+    .easy_to_implement{
+        margin-left: 125px;
+    }
 }

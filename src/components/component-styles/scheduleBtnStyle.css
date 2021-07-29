@@ -29,7 +29,8 @@
 }
 @media (min-width: 1440px){
     .btn_schedule{
-        right: 90px;
+        right: 120px;
+        margin-top: 0;
     }
 }
 

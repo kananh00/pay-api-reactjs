@@ -34,8 +34,8 @@ class Home extends Component{
                             <div className="schedule_input">
                                 <div className="row">
                                     <div className="col-12"><h1 className="home_heading">Start building with our APIs for absolutely free.</h1></div>
-                                    <div className="col col-md-8"><EmailInput/></div>
-                                    <div className="col col-md-4"><Button btnText='Schedule a Demo'/></div>
+                                    <div className="col col-md-8 col-lg-8"><EmailInput/></div>
+                                    <div className="col col-md-4 col-lg-4"><Button btnText='Schedule a Demo'/></div>
                                     <div className="col-12"><p className="questions_txt">Have any questions?<span className="bold_txt"> Contact Us</span></p></div>
                                 </div>
                             </div>
@@ -69,7 +69,9 @@ class Home extends Component{
                                 </div>
                             </div>
                             <div className="col-12 col-lg-8">
-                                <Heading heading_name='Easy to implement' text='Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.' color='#6C8294'/>
+                                <div className="easy_to_implement">
+                                    <Heading heading_name='Easy to implement' text='Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.' color='#6C8294'/>
+                                </div>
                             </div>
                         </div>
                     </div> 

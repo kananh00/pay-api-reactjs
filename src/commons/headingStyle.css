@@ -33,9 +33,9 @@
 @media (min-width: 1024px){
     .heading_wrapper{
         text-align: left;
-        margin-left: 100px;
         max-width: 450px;
     }
+    
     .text{
         padding: 0;
     }
