@@ -18,7 +18,7 @@
     z-index: -1;
 }
 .page_heading{
-    margin-top: 65px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 .about_content{
@@ -59,7 +59,7 @@
         padding: 45px 39px;
     }
     .page_heading{
-        margin-top: 85px;
+        margin-top: 120px;
     }
     .circle_pageBG{
         left: 475px;
@@ -85,5 +85,27 @@
     }
     .team_img_mob{
         display: none;
+    }
+}
+@media (min-width: 1024px){
+    .page{
+        padding: 40px 95px;
+    }
+    .circle_pageBG{
+        left: 50%;
+    }
+    .text_about{
+        text-align: left;
+    }
+    .team_img_tablet{
+        display: none;
+    }
+    .team_img_mob{
+        display: none;
+    }
+    .team_img_desk{
+        display: block;
+        margin: 0 -95px;
+        width: 100vw
     }
 }

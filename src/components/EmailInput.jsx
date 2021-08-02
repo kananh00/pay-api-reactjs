@@ -1,13 +1,9 @@
 import React from 'react';
 import './component-styles/emailInputStyle.css'
 
-export const EmailInput = () => {
+export const EmailInput = (props) => {
     return(
-        <div className="email_input">
-            <form>
-                <input className="email_input_text" type="email" placeholder="Enter email address"/>
-            </form>
-        </div>
+        <input style={{marginLeft: props.marginLeft}} className="email_input_text" type="email" placeholder="Enter email address"/>
     )
 }
 

@@ -13,6 +13,10 @@
     border-radius: 24px;
     color: #FBFCFE;
 }
+.main_btn:hover{
+    background-color: #fff;
+    color: rgba(27, 38, 47, 1);
+}
 @media (min-width: 1024px){
     .main_btn_wrapper{
         text-align: left;

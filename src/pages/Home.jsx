@@ -16,11 +16,12 @@ import Advantages from '../components/Advantages';
 import { ReadyToStart } from '../components/ReadyToStart';
 import { Footer } from '../components/Footer';
 class Home extends Component{
-    render(){
+   
+    render(){ 
         return(
             <div className="home">
                 <div className="circle"></div>
-                <Header/>
+                {/* <Header/> */}
                 
                 
                 <div className="container">
@@ -32,10 +33,12 @@ class Home extends Component{
                         </div>
                         <div className="col-12 col-lg-7 order-lg-1">
                             <div className="schedule_input">
-                                <div className="row">
+                                <div className="row justify-content-center justify-content-xl-start">
                                     <div className="col-12"><h1 className="home_heading">Start building with our APIs for absolutely free.</h1></div>
-                                    <div className="col col-md-8 col-lg-8"><EmailInput/></div>
-                                    <div className="col col-md-4 col-lg-4"><Button btnText='Schedule a Demo'/></div>
+                                    <div className="col-12 col-md-6 col-lg-7 col-xl-6 p-0 mt-lg-4"><EmailInput/></div>
+                                    <div className="col-12 col-md-4 col-lg-4 p-0 d-none d-lg-flex d-xl-none mt-4"><Button right='15%' btnText='Schedule a Demo'/></div>
+                                    <div className="col-12 col-md-4 col-lg-4 p-0 d-none d-xl-flex mt-4"><Button right='33%' btnText='Schedule a Demo'/></div>
+                                    <div className="col-12 col-md-4 col-lg-4 p-0 d-sm-block d-lg-none"><Button right='120px' btnText='Schedule a Demo'/></div>
                                     <div className="col-12"><p className="questions_txt">Have any questions?<span className="bold_txt"> Contact Us</span></p></div>
                                 </div>
                             </div>
@@ -60,36 +63,38 @@ class Home extends Component{
                     </div>
                 </div>
 
-                <div className="implement">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-12 col-lg-4">
-                                <div className="implement_image">
-                                    <img src={implement} alt="implement"/>
+                <div className="info_part">
+                    <div className="implement">
+                        <div className="container-fluid">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-lg-4">
+                                    <div className="implement_image">
+                                        <img src={implement} alt="implement"/>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-lg-8">
+                                    <div className="easy_to_implement">
+                                        <Heading heading_name='Easy to implement' text='Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.' color='#6C8294'/>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-8">
-                                <div className="easy_to_implement">
-                                    <Heading heading_name='Easy to implement' text='Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.' color='#6C8294'/>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
+                        </div> 
+                    </div>
 
-                <div className="ui_ux">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-12 col-lg-7 order-lg-2">
-                                <div className="ui_img">
-                                    <img src={ui} alt="simple_ui"/>
+                    <div className="ui_ux">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-12 col-lg-7 order-lg-2">
+                                    <div className="ui_img">
+                                        <img src={ui} alt="simple_ui"/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-12 col-lg-5 order-lg-1">
-                                <div className="head_wrapper">
-                                    <Heading heading_name='Simple UI & UX' text='Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.' color='#6C8294'/>
+                                <div className="col-12 col-lg-5 order-lg-1">
+                                    <div className="head_wrapper">
+                                        <Heading heading_name='Simple UI & UX' text='Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.' color='#6C8294'/>
+                                    </div>
+                                    
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -110,7 +115,7 @@ class Home extends Component{
                 </div>
 
                 <ReadyToStart/>
-                <Footer/>
+                {/* <Footer/> */}
             
             </div>
         )

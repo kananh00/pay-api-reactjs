@@ -14,7 +14,12 @@
     background-color: rgba(54, 83, 107, 0.25);
 }
 .check_clicked{
-    background-color: rgba(54, 83, 107, 1);
+    background-color: #BA4270;
+}
+.checkbox_icon{
+    filter: brightness(0) invert(1);
+    margin-left: 5px;
+    margin-bottom: 3px;
 }
 .checkLine{
     display: flex;
@@ -38,4 +43,15 @@
         text-align: center;
         margin-bottom: 40px;
     }
+}
+@media (min-width: 1024px){
+    .contact_corp_heading{
+        padding: 0;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .form_part{
+        padding: 0;
+    }
+
 }

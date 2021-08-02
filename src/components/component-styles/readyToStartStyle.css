@@ -12,3 +12,14 @@
     color: #36536B;
     margin-bottom: 32px;
 }
+@media (min-width: 1024px){
+    .ready_to_start{
+        margin-top: 0;
+    }
+    .heading_read{
+        font-size: 48px;
+        text-align: left;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+    }
+}

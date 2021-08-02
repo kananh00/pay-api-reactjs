@@ -2,10 +2,10 @@
     background-color: #1B262F;
     position: relative;
     overflow: hidden;
-    margin: 0 -24px -48px -24px;
+    margin: 0 0px -48px 0px;
     padding: 46px 120px;
     text-align: center;
-    z-index: -2;
+    z-index: 1;
 }
 .nav_link{
     cursor: pointer;
@@ -35,7 +35,7 @@
     background-size: contain;
     background-position: bottom;
     position: absolute;
-    margin: -48px 0 -24px;
+    margin: -48px 0 0px;
     width: 780px;
     height: 780px;
     left: -200px;
@@ -45,7 +45,7 @@
 @media (min-width: 760px){
     .footer{
         padding: 39px 31px;
-        margin: 0 -39px -48px -39px;
+        margin: 0 0px -48px 0px;
     }
     .social{
         margin: 0;
@@ -56,5 +56,14 @@
     .logo{
         margin: 0;
         margin-top: -7px;
+    }
+}
+@media (min-width: 1024px){
+    .footer{
+        padding: 40px 95px;
+    }
+    .social{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }

@@ -64,9 +64,9 @@ class Header extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-lg-2">
+                    <div className="col-md-3 col-lg-4 position-relative">
                         <div className="nav_btn">
-                            <Button marginTop='-3px' marginBottom='0' btnText='Schedule a Demo'/>
+                            <Button marginTop='-3px' marginBottom='0' btnText='Schedule a Demo' right='0'/>
                         </div>
                     </div>
                 </div>

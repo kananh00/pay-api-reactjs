@@ -51,7 +51,7 @@ class Pricing extends Component{
         return(
             <div className="pricing page">
                 <div className="circle_pageBG"></div>
-                <Header/>
+                {/* <Header/> */}
                 <h1 className="home_heading page_heading">Pricing</h1>
                 <div className="container-fluid p-0">
                     <div className="row">
@@ -68,7 +68,7 @@ class Pricing extends Component{
                 </div>
     
                 <ReadyToStart/>
-                <Footer/>
+                {/* <Footer/> */}
                 
             </div>
         )

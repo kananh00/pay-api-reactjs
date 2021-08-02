@@ -4,6 +4,7 @@
     padding: 48px 24px;
     position: relative;
     overflow: hidden;
+    position: relative;
 }
 .circle{
     background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
@@ -18,10 +19,9 @@
     top: -470px;
     z-index: -1;
 }
-
 .mob_img{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: -20px;
 }
 .mob_img img{
@@ -62,10 +62,12 @@
 }
 .ui_img{
     text-align: center;
-    width: 90vw;
+    width: 100%;
     overflow: hidden;
 }
-
+.ui_img img{
+    width: 100%;
+}
 @media (min-width: 760px){
     .home{
         padding: 45px 39px;
@@ -77,7 +79,7 @@
         top: -596px;
     }
     .mob_img{
-        margin-top: 48px;
+        margin-top: 80px;
     }
     .mob_img img{
         width: 250px;
@@ -105,6 +107,9 @@
     .implement_image img{
         width: 395px;
     }
+    .ui_img img{
+        width: 50%;
+    }
     .questions_txt{
         margin-top: 16px;
     }
@@ -119,13 +124,19 @@
     .home{
         padding: 40px 95px;
     }
+    .circle{
+        width: 780px;
+        height: 780px;
+        top: -220px;
+        left: 465px;
+    }
     .schedule_input{
-        margin-top: 165px;
+        margin-top: 200px;
     }
     .home_heading{
-        font-size: 72px;
-        line-height: 72px;
-        letter-spacing: -0.55px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.45px;
         text-align: left;
         padding: 0;
     }
@@ -137,7 +148,6 @@
         margin-left: 120px;
     }
     .corporation{
-        padding: 100px 140px;
         margin: 80px -95px;
     }
     .corp_wrapper{
@@ -149,6 +159,9 @@
         width: 40vw;
     }
     .ui_img img{
+        width: 35vw;
+    }
+    .implement_image img{
         width: 35vw;
     }
     .head_wrapper{
@@ -167,5 +180,24 @@
     }
     .easy_to_implement{
         margin-left: 125px;
+    }
+}
+@media (min-width: 1200px){
+    .info_part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_heading{
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -0.55px;
+    }
+    .schedule_input{
+        margin-top: 165px;
+    }
+    .circle{
+        left: 60%;
     }
 }

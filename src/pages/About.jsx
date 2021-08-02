@@ -12,7 +12,7 @@ class About extends Component{
         return(
             <div className="about page">
                 <div className="circle_pageBG"></div>
-                <Header/>
+                {/* <Header/> */}
                 <h1 className="home_heading page_heading">We empower innovators by delivering access to the financial system</h1>
 
                 <div className="about_content">
@@ -57,7 +57,7 @@ class About extends Component{
                 </div>  
 
                 <ReadyToStart/>
-                <Footer/>
+                {/* <Footer/> */}
             </div>    
         )
     }
