@@ -1,8 +1,5 @@
 import React from 'react';
 import './component-styles/corparationStyle.css';
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 import tesla from '../assets/shared/desktop/tesla.svg'
@@ -15,20 +12,6 @@ import google from '../assets/shared/desktop/google.svg'
 export const Corparation = (props) => {
     return(
         <div style={{marginTop: props.marginTop}}>
-            {/* <Container fluid>
-                <Row className="corp_row">
-                    <Col><img style={{filter: props.filter}}className="corp_logo" src={tesla} alt="tesla"/></Col>
-                    <Col><img style={{filter: props.filter}}className="corp_logo" src={microsoft} alt="microsoft"/></Col>
-                </Row>
-                <Row className="corp_row">
-                    <Col><img style={{filter: props.filter}}className="corp_logo" src={hewlettPackard} alt="hewlettPackard"/></Col>
-                    <Col><img style={{filter: props.filter}}className="corp_logo" src={oracle} alt="oracle"/></Col>
-                </Row>
-                <Row className="corp_row">
-                    <Col><img style={{filter: props.filter}}className="corp_logo" src={google} alt="google"/></Col>
-                    <Col><img style={{filter: props.filter}}className="corp_logo" src={nvidia} alt="nvidia"/></Col>
-                </Row>
-            </Container> */}
             <div className="container">
                 <div className="row">
                     <div className="col-6 col-md-4">

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Button} from '../components/ScheduleBtn'
 import {EmailInput} from '../components/EmailInput'
-import Header from '../components/Header.jsx'
 import {ButtonMain} from '../components/ButtonMain'
 import './homeStyle.css'
 import mobile from '../assets/home/desktop/illustration-phone-mockup.svg'
@@ -14,7 +13,6 @@ import Corparation from '../components/Corparation';
 import Heading from '../commons/Heading';
 import Advantages from '../components/Advantages';
 import { ReadyToStart } from '../components/ReadyToStart';
-import { Footer } from '../components/Footer';
 class Home extends Component{
    
     render(){ 

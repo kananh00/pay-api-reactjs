@@ -1,8 +1,5 @@
 import React,{Component} from 'react';
 import { NavLink } from "react-router-dom";
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import "bootstrap/dist/css/bootstrap.min.css"
 import './component-styles/headerStyle.css';
 import logo from '../assets/shared/desktop/logo.svg'

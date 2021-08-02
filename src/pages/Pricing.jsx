@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import './pricingStyle.css';
-import Header from '../components/Header';
 import PricingElement from '../components/PricingElement';
 import { ReadyToStart } from '../components/ReadyToStart';
-import { Footer } from '../components/Footer';
 class Pricing extends Component{
     state = {
         checked: [

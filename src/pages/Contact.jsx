@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import './contactStyle.css';
-import Header from '../components/Header';
 import Form from '../components/Form';
 import ButtonMain from '../components/ButtonMain';
 import Corparation from '../components/Corparation';
 import { ReadyToStart } from '../components/ReadyToStart';
-import { Footer } from '../components/Footer';
 import checkedIcon from '../assets/shared/desktop/icon-check.svg';
 
 class Contact extends Component{

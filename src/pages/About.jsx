@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import './aboutStyle.css'
-import Header from '../components/Header';
 import teamMob from '../assets/about/mobile/image-team-members.jpg'
 import teamTablet from '../assets/about/tablet/image-team-members.jpg'
 import teamDesk from '../assets/about/desktop/image-team-members.jpg'
 import { ReadyToStart } from '../components/ReadyToStart';
-import { Footer } from '../components/Footer';
 import TeamInfo from '../components/TeamInfo';
 class About extends Component{
     render(){
